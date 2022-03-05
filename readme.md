@@ -9,7 +9,7 @@ A small tool to search youtube through the terminal and play videos using mpv, b
 4. make sure you have the following alias set: 
 > alias termtube='python3 ~/insert_path_to_file/main.py'
 
-5. run termtub in terminal and enjoy
+5. run termtube in terminal and enjoy
 
 ---
 ## Future work:
