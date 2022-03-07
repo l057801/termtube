@@ -24,7 +24,6 @@ if __name__ == "__main__":
                     start_video(vid)
 
                 except:
-                    print('sth is wrong!!')
                     if choiceNo.lower() == 'q':
                         break
                     else:
@@ -38,3 +37,4 @@ if __name__ == "__main__":
 
     close_all()
     delete_temp()
+    os.system('clear')
