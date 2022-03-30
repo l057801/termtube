@@ -61,7 +61,7 @@ def start_video(name):
     # convert name into format mpv accepts
     for s in symbols:
         name = name.replace(s,f"\{s}")
-    os.system(f"mpv --no-terminal {name} &")
+    os.system(f"mpv --no-terminal {name}")
 
 def delete_temp():
     os.system('rm -rf ~/Videos/temp')

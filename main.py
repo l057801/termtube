@@ -1,6 +1,7 @@
 from youtubesearchpython import VideosSearch
 import os
 from functions import bcolors, search, analyze_response, create_temp, delete_temp, start_video, stream_choice_video, close_all
+import time
 
 if __name__ == "__main__":
 
@@ -28,12 +29,14 @@ if __name__ == "__main__":
                         break
                     else:
                         print(f'{bcolors.WARNING}Please enter a number{bcolors.ENDC}')
+                        time.sleep(3)
 
             except:
                 if searchTerm.lower() == 'q':
                     break
                 else:
                     print(f'{bcolors.WARNING}Please enter a number{bcolors.ENDC}')
+                    time.sleep(3)
 
     close_all()
     delete_temp()
